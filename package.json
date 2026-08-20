@@ -35,12 +35,12 @@
     "bs58check": "^2.1.2",
     "buffer": "^5.6.0",
     "crc-32": "^1.2.0",
-    "elliptic": "6.5.4",
+    "elliptic": ">=6.6.1",
     "eth-eip712-util-browser": "^0.0.3",
     "hash.js": "^1.1.7",
     "js-sha3": "^0.8.0",
     "rlp-browser": "^1.0.1",
-    "secp256k1": "4.0.2",
+    "secp256k1": ">=4.0.5",
     "superagent": "^3.8.3"
   },
   "devDependencies": {
@@ -80,5 +80,13 @@
       "name": "Lineaje DepFixer",
       "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
     }
-  ]
+  ],
+  "overrides": {
+    "elliptic": ">=6.6.1",
+    "secp256k1": ">=4.0.5"
+  },
+  "resolutions": {
+    "elliptic": ">=6.6.1",
+    "secp256k1": ">=4.0.5"
+  }
 }
