@@ -1,6 +1,6 @@
 {
   "name": "gridplus-sdk",
-  "version": "0.10.5",
+  "version": "0.10.5-lineaje-01",
   "description": "SDK to interact with GridPlus Lattice1 device",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -24,7 +24,7 @@
   "main": "./dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GridPlus/gridplus-sdk.git"
+    "url": "https://github.com/lineaje-labs-gos/GridPlus-gridplus-sdk"
   },
   "dependencies": {
     "aes-js": "^3.1.1",
@@ -74,5 +74,11 @@
   "files": [
     "dist"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ]
 }
